@@ -1,0 +1,21 @@
+name = input ("Enter your name: ")
+print(name)
+age = int(input("Enter your age: "))
+print(age)
+date = input("Enter your date of birth in dd/mm//yyyy format: ")
+print(date)
+print("Happy Birthday 🥳🎊🎉🎂 in advance!!")
+print("Happy New Year 2024 ❤️")
+
+
+
+
+O/p
+Enter your name: Yugandhar Deshmukh
+Yugandhar Deshmukh
+Enter your age: 22
+22
+Enter your date of birth in dd/mm//yyyy format: 19/10/2002
+19/10/2002
+Happy Birthday 🥳🎊🎉🎂 in advance!!
+Happy New Year 2024 ❤️

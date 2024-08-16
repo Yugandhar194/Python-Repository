@@ -1,0 +1,65 @@
+#Operators in Python
+
+num1=10;
+num2=2;
+
+#Arithmetic Operators
+
+print("num1 + num2 is" ,num1+num2)
+print("num1 - num2 is" , num1-num2)
+print("num1 * num2 is" , num1*num2)
+print("num1 / num2 is" , num1/num2)
+print("num1 // num2 is", num1//num2)
+print("num1 ** num2 is", num1**num2)
+print("num1 % num2 is" , num1%num2)
+
+#Assignment Operators
+a=5;
+print(a)
+a+=2;
+print(a)
+a-=2;
+print(a)
+a*=2;
+print(a)
+a/=2;
+print(a)
+
+#Comparision Operator
+x=2;
+y=3;
+z=2;
+print(x > y)
+print(x < y)
+print(x != y)
+print(x == y)
+
+#Logical Operator
+print(x == z and x<y)
+print(x == z or x<y)
+print(not(True))
+print(not(False))
+
+
+O/p
+num1 + num2 is 12
+num1 - num2 is 8
+num1 * num2 is 20
+num1 / num2 is 5.0
+num1 // num2 is 5
+num1 ** num2 is 100
+num1 % num2 is 0
+5
+7
+5
+10
+5.0
+False
+True
+True
+False
+True
+True
+False
+True
+>

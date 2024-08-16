@@ -1,0 +1,24 @@
+name = "yugandhar@"
+number = '19'
+
+print(name[0:3])
+print(name [6:8])
+
+print(name.upper())
+print(name.capitalize())
+print(name.count("a"))
+
+print(name.isalnum())
+print(number.isdigit())
+
+
+
+O/P
+
+yug
+ha
+YUGANDHAR@
+Yugandhar@
+2
+False
+True

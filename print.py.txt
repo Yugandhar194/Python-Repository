@@ -1,0 +1,8 @@
+#first code in python
+print("Yugandhar here!")
+'''
+print("nice to meet you");
+'''
+
+O/p
+Yugandhar here!

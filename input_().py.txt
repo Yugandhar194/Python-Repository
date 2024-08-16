@@ -1,0 +1,16 @@
+name = input ("Enter your name: ")
+print(name)
+num = input(type(name))
+num = input("Enter a number ")
+print(type(num))
+print (int(num)+6)
+
+
+O/p
+
+Enter your name: yug
+yug
+<class 'str'>
+Enter a number 5
+<class 'str'>
+11
