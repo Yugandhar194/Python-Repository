@@ -1,0 +1,27 @@
+#List & other methods
+l1 = [100,20,30,"Yugandhar "]
+print (type(l1))    #represents the type of list
+print(l1)    
+
+l1.remove(20)       #removes a specifid element
+print(l1)       
+
+l1.pop()            #removes the last occurring element
+print(l1)
+
+l1.sort()           #sorts in ascending order
+print(l1)
+
+l1.append("Sudhir")     #adds a new element in the ending 
+print(l1)
+
+
+
+O/p
+
+<class 'list'>
+[100, 20, 30, 'Yugandhar ']
+[100, 30, 'Yugandhar ']
+[100, 30]
+[30, 100]
+[30, 100, 'Sudhir']

@@ -1,0 +1,18 @@
+class Employee:
+    def __init(self, name, salary):
+        self.name = name
+        self.salary = salary
+        
+    def getSalary(self):
+        print(self.salary)
+rohan = Employee("Rohan",  "5000")
+rohan.getSalary()
+
+yugsjd = Employee("Yugandhar", "1,00,000")
+yugsjd.getSalary()
+
+
+
+O/p
+5000
+1,00,000

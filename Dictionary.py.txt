@@ -1,0 +1,11 @@
+#Dictionary and its methods 
+dict1 = {"Yugandhar" : 98, "Ajinkya" : 75, "Mansi" : 63, "Riya" : 45, 98: "Om"}
+                #It represnts in key-value pair
+print (dict1.get("Ajinkya"))        #Represents key
+print (dict1.get(98))       #Represents value
+
+
+O/p
+75
+
+Om

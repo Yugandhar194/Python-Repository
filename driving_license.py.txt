@@ -1,0 +1,12 @@
+age = int(input("Enter your age: "))
+if (age >= 18):
+    print("You can Drive!!")
+else:
+    print("Go home!!")
+print("End of the program!!")
+
+
+O/p
+Enter your age: 21
+You can Drive!!
+End of the program!!

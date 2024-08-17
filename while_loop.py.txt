@@ -1,0 +1,40 @@
+#While loop in PYTHON 
+i = 0
+while (i <= 10):
+    print(i)
+    i+=1
+print("Programn has finished executing!...")
+
+#while(True):
+#    print("Yugandhar Deshmukh")        '''Infinite ~ Loop
+
+while(True):
+    num = int(input("Enter a number: "))
+    print(num)
+    if (num > 10):
+        break
+
+
+O/P
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Programn has finished executing!...
+Enter a number: 2
+2
+Enter a number: 4
+4
+Enter a number: 6
+6
+Enter a number: 9
+9
+Enter a number: 11
+11

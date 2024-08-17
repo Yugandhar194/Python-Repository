@@ -1,0 +1,21 @@
+#Match case(only available from Python Version 3.0)
+
+a = int(input("Enter a number: "))
+
+match a:
+    case 1:
+        print("Case is 25")
+    case 2:
+        print("Case is 50")
+    case 3:
+        print("Case is 75")
+    case 4:
+        print("Case is 100")
+    case _:
+        print("Wrong case entered!")
+
+
+O/p
+
+Enter a number: 5
+Wrong case entered!

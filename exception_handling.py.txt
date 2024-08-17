@@ -1,0 +1,31 @@
+#1.0Exception Handling in Python
+try:
+    a= int(input("Enter a number: "))
+    print(a*5)
+except Exception as e:
+    print("All Okay", e)
+    
+    #2.0Exception Handling in Python
+try:
+    a= int(input("Enter a number: "))
+    print(a/0)
+except Exception as e:
+    print("Some Error Occurred!!", e)
+    
+    #3.0Exception Handling in Python
+try:
+    a= int(input("Enter a number: "))
+    print(a/0)
+except Exception as e:
+    print("Some Error Occurred!!", e)
+
+
+
+
+O/p
+1.  Enter a number: 4
+20
+2.  Enter a number: 5
+Some Error Occurred!! division by zero
+3. Enter a number: yugs
+Some Error Occurred!! invalid literal for int() with base 10: 'yugs'

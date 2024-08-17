@@ -1,0 +1,29 @@
+#Functions in Python
+def area_of_rect(a,b):      #Creating area function
+    return (a*b)
+print (area_of_rect(3,4))   #Passing the parameters
+    
+def letterGenerator(name, date):
+    st = f"Hello MAM ! This is {name} and I will not come to college on {date}"
+    print(st)       
+letterGenerator("Yugandhar", "4th Jan")     #Calling function
+
+def greetHello(name, ending):
+    print("Hello "+ name)
+    print("Nice to meet you!")
+    print("How are you?")
+    print("Welcome to my new house dear!!!")
+greetHello("Gibbs", "Thanks for coming")
+
+
+
+
+
+O/p
+12
+Hello MAM ! This is Yugandhar and I will not come to college on 4th Jan
+Hello Gibbs
+Nice to meet you!
+How are you?
+Welcome to my new house dear!!!
+

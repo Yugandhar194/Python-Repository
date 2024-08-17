@@ -1,0 +1,9 @@
+number = int(input("Enter a number of your choice: "))
+if (number % 2 == 0):
+    print ("Even")
+else:
+        print("Odd")
+
+
+Enter a number of your choice: 7
+Odd

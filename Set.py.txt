@@ -1,0 +1,17 @@
+#Set and its methods
+a1 = {3,5,32,5,5,5}
+a2 = {7,8,0,5,32,0}
+
+print(a1)
+print(a2)
+
+print(a1.union(a2))     #prints the unique elements of both the sets
+
+print(a1.intersection (a2))     #prints the common elements among sets if not found it returns set()
+
+
+O/p
+{32, 3, 5}
+{0, 32, 5, 7, 8}
+{32, 0, 3, 5, 7, 8}
+{32, 5}

@@ -1,0 +1,14 @@
+#Tuple and its methods
+t = (2, 4, 19, 5, 19)
+
+print(t)
+print(type(t))      #represents the data type of tuple
+print(t.count(19))  #represents the count of occurunces of a specific element 
+print(t.index(5))   #returns the index of that specific element
+
+
+O/p
+(2, 4, 19, 5, 19)
+<class 'tuple'>
+2
+3

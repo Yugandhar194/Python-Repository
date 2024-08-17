@@ -1,0 +1,45 @@
+#For Loops
+for i in range(7):
+    print (i+1)
+print ("Printing Sets !!...")
+a = [6,12,18,24,30]
+s = {8,16,24,32,40}
+for item in a:
+    print(item)
+for item in s:
+    print(item)
+for item in a and s:
+    print(item)
+for item in a or s:
+    print(item)
+
+
+O/p
+1
+2
+3
+4
+5
+6
+7
+Printing Sets !!...
+6
+12
+18
+24
+30
+32
+16
+8
+24
+40
+32
+16
+8
+24
+40
+6
+12
+18
+24
+30
